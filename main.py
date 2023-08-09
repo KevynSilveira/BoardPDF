@@ -52,7 +52,7 @@ label_board_pdf = ctk.CTkLabel(master=frame, text="BoardPDF", width=150, height=
 label_board_pdf.configure(font=("arial", 18))
 label_board_pdf.place(x=50, y=5)
 
-button_select = ctk.CTkButton(master=frame, text= "Diretório origem", width=150, height=30, command=select, fg_color="dark grey", text_color="black", hover_color="gray")
+button_select = ctk.CTkButton(master=frame, text="Diretório origem", width=150, height=30, command=select, fg_color="dark grey", text_color="black", hover_color="gray")
 button_select.configure(font=("arial", 14))
 button_select.place(x=50, y=50)
 
