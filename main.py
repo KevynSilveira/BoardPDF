@@ -11,6 +11,7 @@ def select():
     diretorio = filedialog.askdirectory()
     entry_select.delete(0, tk.END)
     entry_select.insert(0, diretorio)
+    
 def get_current_date_formatted():
     current_date = datetime.datetime.now()
     return current_date.strftime("%d-%m-%Y")
