@@ -60,7 +60,7 @@ entry_select = ctk.CTkEntry(master=frame, width=200, height=30)
 entry_select.configure(font=("arial", 14))
 entry_select.place(x=25, y=90)
 
-button_execute = ctk.CTkButton(master=frame, text= "Executar", width=150, height=30, command=execute, fg_color="gray", text_color="black")
+button_execute = ctk.CTkButton(master=frame, text= "Executar", width=150, height=30, command=execute, fg_color="dark grey", text_color="black")
 button_execute.configure(font=("arial", 14))
 button_execute.place(x=50, y=160)
 
