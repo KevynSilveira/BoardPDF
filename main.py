@@ -33,7 +33,7 @@ def merge_pdfs_in_folder(folder_path, output_file): # Junta os PDF em forma cres
 
     messagebox.showinfo("ATENÇÃO", "PDFs combinados com sucesso!")
 
-def execute(): # Executa as ações
+def execute(): # Executa as ações no botão executar
     directory = entry_select.get()
 
     if directory:
